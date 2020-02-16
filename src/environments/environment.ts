@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyCuDhz5bjL5xth6eJUG3gQCLVmPMocYsRE',
+    authDomain: 'mixtosys.firebaseapp.com',
+    databaseURL: 'https://mixtosys.firebaseio.com',
+    projectId: 'mixtosys',
+    storageBucket: 'mixtosys.appspot.com',
+    messagingSenderId: '1032974444818'
+  }
 };
 
 /*
